@@ -32,5 +32,10 @@
     "mock-require": "^3.0.2",
     "sinon": "^6.1.4",
     "supertest": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryersonlibrary/loopback-component-cas.git"
+  },
+  "homepage": "https://github.com/ryersonlibrary/loopback-component-cas#readme"
 }
