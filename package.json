@@ -2,7 +2,7 @@
   "name": "@rula/loopback-component-cas",
   "version": "1.0.0",
   "description": "Loopback component used to add CAS authentication via Passport.  Similar to `loopback-component-passport`.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
