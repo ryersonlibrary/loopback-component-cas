@@ -22,7 +22,6 @@
   "dependencies": {
     "@rula/passport-cas": "^1.0.1",
     "passport": "^0.4.0",
-    "strong-globalize": "^4.1.1",
     "underscore": "^1.9.1"
   },
   "devDependencies": {
