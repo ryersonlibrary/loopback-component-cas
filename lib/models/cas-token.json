@@ -1,0 +1,18 @@
+{
+  "name": "CasToken",
+  "base": "AccessToken",
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "casUser": {
+      "type": "belongsTo",
+      "model": "casUser",
+      "foreignKey": "userId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

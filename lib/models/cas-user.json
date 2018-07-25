@@ -1,0 +1,25 @@
+{
+  "name": "CasUser",
+  "base": "User",
+  "properties": {
+    "attributes": {
+      "type": "Object",
+      "comments": "Any additional CAS user attributes"
+    }
+  },
+  "excludeBaseProperties": [
+    "email", "realm", "password", "emailVerified", "verificationToken"
+  ],
+  "acls": [{
+    "principalType": "ROLE",
+    "principalId": "$everyone",
+    "permission": "DENY"
+  }],
+  "relations": {
+    "casToken": {
+      "type": "hasMany",
+      "model": "CasToken",
+      "foreignKey": "userId"
+    }
+  }
+}
